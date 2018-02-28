@@ -1,0 +1,175 @@
+body{
+  max-width:1900px;
+  margin:0 auto;
+  font-family:'Nanum Gothic', sans-serif;
+}
+hr{
+	margin:0px auto;
+	width:100%;
+	height:15px;
+	background-color:#3b3b3b;
+	border:none;
+}
+header{
+	background-size:cover;
+	background-color:#de4f4f;
+}
+nav{
+	display:flex;
+	justify-content:space-around;
+}
+.logo{
+	color:white;
+	font-weight:bold;
+	font-size:17px;
+}
+h1{
+	margin-bottom:0px;
+}
+p{
+	margin-top:0px;
+}
+.menu{
+	color:white;
+}
+ul{
+	display:flex;
+	list-style:none;
+	margin-top:40px;
+}
+ul li:hover{
+	color:black;
+	cursor:pointer;
+}
+ul li{
+	padding-right:30px;
+}
+.slyder{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:60%;
+	height:490px;
+	position:relative;
+	top:100px;
+	left:320px;
+}
+.slyder img{
+	border:10px solid #00000030;
+}
+.getPhotoshop{
+	width: 60%;
+}
+content{
+	display:flex;
+	justify-content: center;
+}
+content h1{
+	margin-top:200px;
+	text-align:center;
+}
+content p{
+	line-height:2;
+}
+footer{
+	display:flex;
+	justify-content:center;
+	background-image:url(../img/footer.png);
+	height:412px;
+}
+/*create From our Blog*/
+.block1{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	width:20%;
+	height:400px;
+	margin:10px;
+}
+.block1 p{
+	color:white;
+	margin-left:80px;
+	font-size:13px;
+}
+.fromBlog{
+	color:white;
+	font-weight:bold;
+	font-size:20px;
+}
+.info1{
+	width:100%;
+	height:100px;
+}
+.info1 img{
+	float:left;
+}
+.info1 span{
+	font-style:italic;
+	color:grey;
+}
+.info2{
+	width:100%;
+	height:100px;
+}
+.info2 img{
+	float:left;
+}
+.info2 span{
+	font-style:italic;
+	color:grey;
+}
+/*Latest Tweets*/
+.block2{
+	display:flex;
+	justify-content:center;
+	width:19%;
+	height:400px;
+	margin:10px;
+}
+.yuorNews{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+}
+.text{
+	width:100%;
+	height:80px;
+}
+.text p{
+	font-size:12px;
+	font-weight:bold;
+	color:white;
+	margin-bottom:0px;
+}
+.web{
+	font-size:12px;
+	color:#ff5c5c;
+}
+.text span{
+	text-decoration:none;
+	font-style:italic;
+	font-size:12px;
+	color:grey;
+}
+/*create Goodware*/
+.block3{
+	display:flex;
+	justify-content:center;
+	width:20%;
+	height:400px;
+	margin:10px;
+}
+.goodware{
+	width:100%;
+	height:80px;
+}
+.goodware span {
+	font-size: 32px;
+	color:white;
+	font-weight:bold;
+}
+.goodware p{
+	color:white;
+	font-size:12px;
+	line-height:2;
+}
