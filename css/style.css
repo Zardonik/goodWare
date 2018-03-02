@@ -13,6 +13,8 @@ hr{
 header{
 	background-size:cover;
 	background-color:#de4f4f;
+	border-top:10px solid #00000030;
+	border-bottom:10px solid #00000030;
 }
 nav{
 	display:flex;
