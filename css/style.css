@@ -115,7 +115,8 @@ footer{
 	display:flex;
 	justify-content:center;
 	background-image:url(../img/footer.png);
-	height:412px;
+	background-size:100%;
+	background-repeat:no-repeat;
 }
 /*create From our Blog*/
 .block1{
