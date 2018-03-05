@@ -1,91 +1,9 @@
-body{
-  max-width:1900px;
-  margin:0 auto;
-  font-family:'Nanum Gothic', sans-serif;
-}
-hr{
-	margin:0px auto;
-	width:100%;
-	height:15px;
-	background-color:#3b3b3b;
-	border:none;
-}
-header{
-	background-size:cover;
-	background-color:#de4f4f;
-	border-top:10px solid #00000030;
-	border-bottom:10px solid #00000030;
-}
-nav{
-	display:flex;
-	flex-wrap: wrap;
-	justify-content:space-around;
-}
-.logo{
-	color:white;
-	font-weight:bold;
-	font-size:17px;
-}
-h1{
-	margin-bottom:0px;
-}
-p{
-	margin-top:0px;
-}
-.menu{
-	color:white;
-}
-
-ul{
-	display:flex;
-	list-style:none;
-	margin-top:40px;
-}
-ul li a{
-	text-decoration:none;
-	color:white;
-}
-ul li a:hover{
-	color:black;
-	cursor:pointer;
-}
-ul li{
-	padding-right:30px;
-}
-.slyder{
-	text-align:center;
-}
-.slyder img {
-    border: 10px solid #00000030;
-    position: relative;
-    top: 100px;
-    width: 65%;
-}
-content h1{
-	text-align:center;
-	margin-top:200px;
-}
-.but{
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	margin-top:50px;
-}
-button{
-	cursor:pointer;
-	background-color: #ff5c5c;
-	border-radius: 40px;
-	border: 10px solid #f5f0e9;
-	font-size: 20px;
-	padding: 15px;
-	width: 250px;
-	color: white;
-}
+@media screen and (max-width: 700px){
 .about{
 	display:flex;
 	flex-wrap:wrap;
 	justify-content:center;
-	margin-top:50px;
+	margin-top:5%;
 }
 .person{
 	width:20%;
@@ -111,9 +29,9 @@ button{
 .span a{
 	color:#ff5c5c;
 	text-decoration:none;
-}
-/*Add footer*/
-footer{
+	}
+
+	footer{
 	background-image:url(../img/footer.png);
 	background-repeat:no-repeat;
 	background-size: cover;
@@ -122,7 +40,7 @@ footer{
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content:space-around;
+	justify-content: space-around;
 }
 /*create From our Blog*/
 .block1{
@@ -153,7 +71,6 @@ footer{
 }
 .info2{
 	width:100%;
-	height:100px;
 }
 .info2 img{
 	float:left;
@@ -211,4 +128,5 @@ footer{
 	color:white;
 	font-size:12px;
 	line-height:2;
+}
 }
