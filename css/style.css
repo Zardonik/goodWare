@@ -88,11 +88,12 @@ button{
 	margin-top:50px;
 }
 .person{
-	width:20%;
-	margin:10px;
+	width:300px;
+	margin:15px;
 }
 .person img{
 	border:10px solid #e7e7e7;
+	width: 100%;
 }
 .person p{
 	font-size:12px;
@@ -123,6 +124,7 @@ footer{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content:space-around;
+	padding-top: 30px;
 }
 /*create From our Blog*/
 .block1{
@@ -153,7 +155,6 @@ footer{
 }
 .info2{
 	width:100%;
-	height:100px;
 }
 .info2 img{
 	float:left;
@@ -200,7 +201,7 @@ footer{
 }
 .goodware{
 	width:100%;
-	margin-top:15px;
+	margin-top:25px;
 }
 .goodware span {
 	font-size: 32px;
